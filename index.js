@@ -10,4 +10,7 @@ function match(value, cases) {
   }
 }
 
+// CommonJS export
 module.exports = match;
+// ESM compatibility:
+module.exports.default = match;
