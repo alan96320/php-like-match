@@ -2,4 +2,4 @@
 This is the match function in php 8 implemented in javascript.
 
 ## Installation
-> npm i as
+> npm i php-like-match
