@@ -1,0 +1,23 @@
+{
+  "name": "php-like-match",
+  "version": "1.0.0",
+  "description": "match like php 8",
+  "main": "match.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan96320/php-like-match.git"
+  },
+  "keywords": [
+    "php like match",
+    "match php in javscript"
+  ],
+  "author": "alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alan96320/php-like-match/issues"
+  },
+  "homepage": "https://github.com/alan96320/php-like-match#readme"
+}
