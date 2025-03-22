@@ -1,20 +1,22 @@
 {
   "name": "php-like-match",
   "version": "1.0.1",
-  "description": "match like php 8",
-  "main": "match.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "PHP-like match expression utility for JavaScript and TypeScript.",
+  "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alan96320/php-like-match.git"
   },
   "keywords": [
-    "php like match",
-    "match php in javscript"
+    "match",
+    "php",
+    "expression",
+    "switch",
+    "typescript",
+    "utility"
   ],
-  "author": "alan",
+  "author": "alan96320",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alan96320/php-like-match/issues"
