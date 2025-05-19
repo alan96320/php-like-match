@@ -1,6 +1,6 @@
 # php-like-match
 
-A utility that mimics PHP's `match` expression in JavaScript and TypeScript.
+A PHP-like `match` expression for JavaScript and TypeScript using fluent class pattern.
 
 ## Features
 
@@ -19,18 +19,15 @@ npm install php-like-match
 ## Usage
 
 ```js
-const match = require("php-like-match");
+const Match = require("php-like-match");
 
-const role = "admin";
+const result = Match(2)
+  .when(1, 'satu')
+  .when(2, 3, 'dua atau tiga')
+  .default('tidak diketahui')
+  .run();
 
-const result = match(role, {
-  admin: "Full Access",
-  user: () => "Limited Access",
-  guest: "Read Only",
-  default: () => "No Access"
-});
-
-console.log(result); // "Full Access"
+console.log(result); // dua atau tiga
 ```
 
 ## TypeScript Support
